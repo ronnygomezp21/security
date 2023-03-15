@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+body {
+
+    background-color: #0b1936c0;
+}
+
+/*Diseño del menú*/
+header img {
+    display: inline;
+    height: 55px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background: #000000;
+
+}
+
+nav.menu ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    white-space: nowrap;
+    border-radius: 15px;
+
+}
+
+nav.menu ul li a:hover {
+    background-color: #69707e;
+    color: white;
+  
+}
+
+a {
+    font-style: Verdana;
+    font-size: 20px;
+}
+
+/*FIN DISEÑO MENÚ */
+/*configurando el footer*/
+.elemento {
+    margin: 15px;
+    text-align: center;
+}
+
+.elemento h4,
+h5 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.elemento p {
+    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+    color: #fff;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 40px;
+}
+
+.redes img {
+    border-radius: 30%;
+    width: 60%;
+}
+
+.redes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.derechosReservados {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 30px;
+    float: initial;
+}

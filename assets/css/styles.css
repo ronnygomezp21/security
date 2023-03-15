@@ -1,0 +1,36 @@
+.barraNavegacion {
+  background: #000000;
+}
+
+.barraNavegacion ul li a {
+  color: rgba(255, 255, 255, .7) !important;
+}
+
+.barraNavegacion ul li a:hover {
+  color: rgba(255, 255, 255, .9) !important;
+}
+
+.jumbotron {
+  opacity: 0.8;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.titNivel1 {
+  color: #000000;
+  background: #cee6ff;
+  font-size: 25px;
+  padding:60px;
+}
+
+.tabladatos tr td {
+  padding: 3px;
+}
+
+#titulo{
+  color: #000000;
+  background: #cee6ff;
+  font-size: 25px;
+  padding:60px;
+  vertical-align: middle;
+}
